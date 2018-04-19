@@ -1,15 +1,13 @@
-// 人間五十年 下天のうちをくらぶれば 夢幻の如くなり
 package constant;
+
+import static constant.JsonConstants.*;
 
 import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
-import static constant.JsonConstants.*;
 
 public class ExcelConstants {
 
-  // ExcelPath
-  // 前回まで利用していたもの："C:\\Users\\works\\Documents\\仕事全般\\業務\\Ver16.11\\16.11_ProgressSheet_template.xlsx"
   public static final String EXCEL_IN_PATH =
       "C:\\Users\\works\\.jenkins\\jobs\\Update_Process_Result\\workspace\\";
   public static final String EXCEL_IN_FILENAME = "Process_Result_Sheet";
